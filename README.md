@@ -45,7 +45,7 @@ This project is ideal for:
 Follow the steps below to run the project locally:
 
 ### 1 Clone the repository
-```bash
+
 git clone <your-repository-url>
 
 ## 2 Navigate into the project folder
