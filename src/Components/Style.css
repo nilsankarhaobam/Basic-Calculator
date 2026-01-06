@@ -1,0 +1,26 @@
+.nav-link:hover{
+    color: rgb(175, 64, 12);
+    
+}
+
+/* Slide from just below navbar */
+.slide-from-navbar {
+  animation: slideFromNavbar 0.8s ease-out;
+}
+
+@keyframes slideFromNavbar {
+  0% {
+    transform: translateY(-150px); /* Start a little above final position */
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+
+.no-caret {
+  caret-color: transparent; /* hides blinking cursor */
+  user-select: none; /* optional: prevents selecting text */
+}
